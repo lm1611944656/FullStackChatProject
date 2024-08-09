@@ -1,0 +1,14 @@
+QDialog#LoginDialog,#RegisterDialog{
+    /*background-color:rgb(143, 188, 143)*/
+    background-color:rgb(255, 255, 255)
+}
+
+/*错误提示标签的状态设置*/
+#m_registerErrorTip[state_1="normal"]{
+    color: green;
+}
+
+/*错误提示标签的状态设置*/
+#m_registerErrorTip[state_1="err"]{
+    color: red;
+}
